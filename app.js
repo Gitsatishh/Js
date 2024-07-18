@@ -11,8 +11,15 @@ btn.addEventListener("click", function(){
 
     let div = document.querySelector("div");
     div.style.backgroundColor = rgb;
-    
-
+    h1.style.backgroundColor = rgb;
+    h3.style.backgroundColor = rgb;
+    h5.style.backgroundColor = rgb;
+    botton.style.backgroundColor = rgb;
 });
 
+
+let h1 = document.querySelector("h1");
+let h3 = document.querySelector("h3");
+let h5 = document.querySelector("h5");
+let botton = document.querySelector("#botton");
 
